@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="all" id="fa-v4-font-face">/*!
+      * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
+      * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+      * Copyright 2022 Fonticons, Inc.
+      */@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-solid-900.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-brands-400.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-regular-400.ttf) format("truetype");unicode-range:u+f003,u+f006,u+f014,u+f016-f017,u+f01a-f01b,u+f01d,u+f022,u+f03e,u+f044,u+f046,u+f05c-f05d,u+f06e,u+f070,u+f087-f088,u+f08a,u+f094,u+f096-f097,u+f09d,u+f0a0,u+f0a2,u+f0a4-f0a7,u+f0c5,u+f0c7,u+f0e5-f0e6,u+f0eb,u+f0f6-f0f8,u+f10c,u+f114-f115,u+f118-f11a,u+f11c-f11d,u+f133,u+f147,u+f14e,u+f150-f152,u+f185-f186,u+f18e,u+f190-f192,u+f196,u+f1c1-f1c9,u+f1d9,u+f1db,u+f1e3,u+f1ea,u+f1f7,u+f1f9,u+f20a,u+f247-f248,u+f24a,u+f24d,u+f255-f25b,u+f25d,u+f271-f274,u+f278,u+f27b,u+f28c,u+f28e,u+f29c,u+f2b5,u+f2b7,u+f2ba,u+f2bc,u+f2be,u+f2c0-f2c1,u+f2c3,u+f2d0,u+f2d2,u+f2d4,u+f2dc}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-v4compatibility.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.2.0/webfonts/free-fa-v4compatibility.ttf) format("truetype");unicode-range:u+f041,u+f047,u+f065-f066,u+f07d-f07e,u+f080,u+f08b,u+f08e,u+f090,u+f09a,u+f0ac,u+f0ae,u+f0b2,u+f0d0,u+f0d6,u+f0e4,u+f0ec,u+f10a-f10b,u+f123,u+f13e,u+f148-f149,u+f14c,u+f156,u+f15e,u+f160-f161,u+f163,u+f175-f178,u+f195,u+f1f8,u+f219,u+f27a}</style>
+    <link rel="stylesheet" href="style.css" /> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div class="header">
+      <div class="header-text">
+        <div class="header-text-left" style="display: flex;">
+          <h1  class='header'>Bagel Gourmet Café</h1>
+        <img src="bagel.png"></img>
+        </div>
+        <div class="header-text-right">
+          <p>Open daily 6:30am-10pm</p>
+          <button>Contact Us</button>
+        </div>
+      </div>
+      <div class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#" class="expand">HOME</a></li>
+          <li><a href="#" class="expand">MENU</a></li>
+          <li><a href="#" class="expand">LOCATION</a></li>
+          <li><a href="#" class="expand">PHOTOS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <img src="bagels-bg.jpeg"></img>
+      <!-- <h1 class="centered content">The Best Bagels in Rhode Island!</h1> -->
+      <div class="text-block">
+        <h1>The Best Bagels in Rhode Island!</h1>
+        <p>Open daily from 6:30am-10pm</p>
+        <div class="landing-buttons">
+          <button class="landing-menu">View Menu</button>
+          <button class="landing-contact">Contact Us</button>
+        </div>
+        
+      </div>
+    </div>
+    <section class="story-container">
+      <div class="text-block-story">
+        <h1>
+          Welcome to Bagel Gourmet Café!
+        </h1>
+        <p>Bagel Gourmet has been serving great food and bagels for <b>over 15 years!</b> And now we are happy to introduce our new location right next to the Medical Alpert Brown school. <br> <br>
+
+We love to see our customers joyful face when they are enyoing our bagels!
+It's our reason why we keep in the old shool way procedure that begins every day at 2:30am. We water boil the bagels and then bake them. Our dough is made fresh daily so we <b>never</b> use bagels from a day before. Its a guarantee :)
+        </p>
+
+      </div>
+        
+
+    </section>
+    <section class="story-container" style="background-color:white; height: auto;">
+      <div class="text-block-story">
+        <h1 style="color: var(--main-bg-color);">
+          Visit Us
+        </h1>
+        <div class="google-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.426887079752!2d-71.41148782400111!3d41.819105071248295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4453b94d21cd3%3A0x740f78182450da75!2sBagel%20Gourmet!5e0!3m2!1sen!2sus!4v1666271307689!5m2!1sen!2sus" width=”100%” height=”100%” frameborder=”0” style="border: 0;" allowfullscreen></iframe>
+        </div>
+        <!-- <i class="fa fa-car fa-4x"></i> -->
+        <p style="color: var(--main-bg-color);">We are happy to introduce our new location right next to the <b>Brown Alpert Medical School.</b></p>
+      <div class="orange-box">
+        <p class="orange-box-t"><b>Open Daily:</b> 6:30am-10pm</p>
+        <p><b>Delivery Hours:</b> 7-2pm M-F</p>
+      </div>
+      
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-text">
+        <div class="footer-text-left">
+          <h1  class='footer-h1' style="">Bagel Gourmet Café</h1>
+          <ul class="nav-list" style="gap: 1rem;">
+            <li><a href="#" class="expand" style="padding-top: 0;color: var(--accent-color-tan);padding-left: 0;">MENU</a></li>
+            <li><a href="#" class="expand" style="padding-top: 0;color: var(--accent-color-tan);">PHOTOS</a></li>
+          </ul>
+        </div>
+        <div class="footer-text-right">
+          <p style="color: var(--accent-color-tan);">
+            <img class='icon' src="hmm.svg"></img>
+            222 Richmond St, Providence, RI 02905</p>
+          <!-- <button> -->
+            <div class="contact-button">
+              <span class="i icon-call"></span>
+              <p>401-454-8800</p>
+            </div>
+          <!-- </button> -->
+        </div>
+      </div>
+
+
+    </section>
+    
+    
+  </body>
+
+</html>
